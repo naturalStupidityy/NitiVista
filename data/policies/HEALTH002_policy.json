@@ -1,0 +1,27 @@
+{
+  "policy_id": "HEALTH002",
+  "provider": "ICICI Lombard",
+  "policy_type": "health",
+  "issue_date": "2024-04-17",
+  "policy_holder": "Policy Holder 2",
+  "document_quality": "handwritten_annotation",
+  "language": "english",
+  "sum_insured": "20 Lakhs",
+  "policy_term": "1 year",
+  "waiting_periods": {
+    "initial": "30 days",
+    "pre_existing": "2-4 years",
+    "specific_diseases": "1-2 years"
+  },
+  "exclusions": [
+    "Pre-existing diseases (first 2-4 years)",
+    "Cosmetic treatments",
+    "Dental treatments (unless accidental)",
+    "Pregnancy and childbirth (first 1-2 years)",
+    "Alternative therapies (some limits)",
+    "War and nuclear risks"
+  ],
+  "premium": "₹47,590 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "ICICI Lombard Customer Care: 1800-818-658"
+}

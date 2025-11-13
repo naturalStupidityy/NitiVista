@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-11-13T20:54:49.398930",
+  "errors": [
+    "Cannot locate exclusions: expected 78%, actual 81.9%",
+    "Follow-up rate: expected 74%, actual 78.0%"
+  ],
+  "warnings": [
+    "Age group 18-25: expected 0.157, actual 0.132",
+    "Age group 26-35: expected 0.289, actual 0.221",
+    "Age group 36-45: expected 0.260, actual 0.314",
+    "Language english: expected 0.417, actual 0.382",
+    "Language hindi: expected 0.162, actual 0.201"
+  ],
+  "status": "FAILED",
+  "total_errors": 2,
+  "total_warnings": 5
+}

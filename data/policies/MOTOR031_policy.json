@@ -1,0 +1,23 @@
+{
+  "policy_id": "MOTOR031",
+  "provider": "ICICI Lombard",
+  "policy_type": "motor",
+  "issue_date": "2024-05-10",
+  "policy_holder": "Policy Holder 31",
+  "document_quality": "clean_pdf",
+  "language": "multilingual",
+  "coverage_type": "Zero Dep",
+  "vehicle_age": "10+ years",
+  "idv": "5-10 Lakhs",
+  "exclusions": [
+    "Drunk driving",
+    "Driving without license",
+    "Wear and tear",
+    "Mechanical/electrical breakdown",
+    "War and nuclear risks",
+    "Consequential losses"
+  ],
+  "premium": "₹35,473 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "ICICI Lombard Customer Care: 1800-552-552"
+}

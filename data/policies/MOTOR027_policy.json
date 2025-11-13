@@ -1,0 +1,23 @@
+{
+  "policy_id": "MOTOR027",
+  "provider": "Tata AIG",
+  "policy_type": "motor",
+  "issue_date": "2024-05-27",
+  "policy_holder": "Policy Holder 27",
+  "document_quality": "clean_pdf",
+  "language": "hindi",
+  "coverage_type": "Third Party",
+  "vehicle_age": "10+ years",
+  "idv": "3-5 Lakhs",
+  "exclusions": [
+    "Drunk driving",
+    "Driving without license",
+    "Wear and tear",
+    "Mechanical/electrical breakdown",
+    "War and nuclear risks",
+    "Consequential losses"
+  ],
+  "premium": "₹31,113 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "Tata AIG Customer Care: 1800-436-385"
+}

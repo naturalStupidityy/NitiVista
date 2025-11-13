@@ -1,0 +1,22 @@
+{
+  "policy_id": "LIFE017",
+  "provider": "Max Life",
+  "policy_type": "life",
+  "issue_date": "2024-01-03",
+  "policy_holder": "Policy Holder 17",
+  "document_quality": "clean_pdf",
+  "language": "hindi",
+  "sum_assured": "1 Crore",
+  "policy_term": "Whole life",
+  "premium_payment": "Single",
+  "exclusions": [
+    "Suicide (first 1 year)",
+    "Death due to intoxication",
+    "Participation in hazardous activities",
+    "War and civil commotion",
+    "Pre-existing conditions not disclosed"
+  ],
+  "premium": "₹19,008 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "Max Life Customer Care: 1800-985-510"
+}

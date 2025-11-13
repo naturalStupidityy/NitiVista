@@ -1,0 +1,27 @@
+{
+  "policy_id": "HEALTH003",
+  "provider": "Apollo Munich",
+  "policy_type": "health",
+  "issue_date": "2024-05-05",
+  "policy_holder": "Policy Holder 3",
+  "document_quality": "clean_pdf",
+  "language": "marathi",
+  "sum_insured": "3 Lakhs",
+  "policy_term": "1 year",
+  "waiting_periods": {
+    "initial": "30 days",
+    "pre_existing": "2-4 years",
+    "specific_diseases": "1-2 years"
+  },
+  "exclusions": [
+    "Pre-existing diseases (first 2-4 years)",
+    "Cosmetic treatments",
+    "Dental treatments (unless accidental)",
+    "Pregnancy and childbirth (first 1-2 years)",
+    "Alternative therapies (some limits)",
+    "War and nuclear risks"
+  ],
+  "premium": "₹29,898 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "Apollo Munich Customer Care: 1800-199-467"
+}

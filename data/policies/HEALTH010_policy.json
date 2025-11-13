@@ -1,0 +1,27 @@
+{
+  "policy_id": "HEALTH010",
+  "provider": "Star Health",
+  "policy_type": "health",
+  "issue_date": "2024-12-24",
+  "policy_holder": "Policy Holder 10",
+  "document_quality": "scanned_300dpi",
+  "language": "hindi",
+  "sum_insured": "20 Lakhs",
+  "policy_term": "1 year",
+  "waiting_periods": {
+    "initial": "30 days",
+    "pre_existing": "2-4 years",
+    "specific_diseases": "1-2 years"
+  },
+  "exclusions": [
+    "Pre-existing diseases (first 2-4 years)",
+    "Cosmetic treatments",
+    "Dental treatments (unless accidental)",
+    "Pregnancy and childbirth (first 1-2 years)",
+    "Alternative therapies (some limits)",
+    "War and nuclear risks"
+  ],
+  "premium": "₹45,979 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "Star Health Customer Care: 1800-405-961"
+}

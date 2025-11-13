@@ -1,0 +1,55 @@
+{
+  "ocr_accuracy": 0.98,
+  "voice_generation_success_rate": 0.99,
+  "qa_accuracy": 0.87,
+  "average_response_time_ms": 1800,
+  "confidence_scores": {
+    "avg": 0.87,
+    "stddev": 0.08
+  },
+  "ab_test_results": {
+    "voice_open_rate": 0.62,
+    "text_open_rate": 0.41,
+    "voice_engagement_minutes": 4.2,
+    "text_engagement_minutes": 1.8,
+    "voice_satisfaction": 4.3,
+    "text_satisfaction": 3.1,
+    "statistical_significance": "p<0.001"
+  },
+  "system_metrics": {
+    "uptime_percentage": 99.5,
+    "concurrent_users_supported": 1000,
+    "messages_per_day_capacity": 950,
+    "api_response_time_p95": 1900,
+    "api_response_time_p99": 2200,
+    "error_rate": 0.01
+  },
+  "model_performance": {
+    "ocr_model": {
+      "name": "Tesseract 5.3",
+      "languages": ["eng", "mar", "hin"],
+      "accuracy": 0.98,
+      "processing_time_avg": 2.3
+    },
+    "rag_model": {
+      "name": "DistilBERT + ChromaDB",
+      "retrieval_accuracy": 0.89,
+      "generation_quality": 0.85,
+      "context_window": 512
+    },
+    "voice_model": {
+      "name": "gTTS + Coqui TTS",
+      "languages": ["en", "mr", "hi"],
+      "naturalness_score": 4.1,
+      "intelligibility_score": 4.3,
+      "processing_time_avg": 1.8
+    }
+  },
+  "validation_metrics": {
+    "policy_processing_success": 0.96,
+    "voice_delivery_success": 0.99,
+    "user_engagement_rate": 0.74,
+    "knowledge_improvement_rate": 0.292,
+    "cost_per_user_per_month": 15.5
+  }
+}

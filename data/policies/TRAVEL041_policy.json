@@ -1,0 +1,23 @@
+{
+  "policy_id": "TRAVEL041",
+  "provider": "ICICI Lombard",
+  "policy_type": "travel",
+  "issue_date": "2024-05-19",
+  "policy_holder": "Policy Holder 41",
+  "document_quality": "handwritten_annotation",
+  "language": "multilingual",
+  "trip_type": "Asia",
+  "duration": "8-15 days",
+  "coverage": "Medical Only",
+  "exclusions": [
+    "Pre-existing medical conditions",
+    "High-risk activities (unless covered)",
+    "Alcohol/drug related incidents",
+    "War and terrorism",
+    "Pregnancy complications (advanced stage)",
+    "Mental disorders"
+  ],
+  "premium": "₹43,803 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "ICICI Lombard Customer Care: 1800-807-950"
+}

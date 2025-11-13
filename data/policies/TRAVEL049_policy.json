@@ -1,0 +1,23 @@
+{
+  "policy_id": "TRAVEL049",
+  "provider": "Tata AIG",
+  "policy_type": "travel",
+  "issue_date": "2024-08-11",
+  "policy_holder": "Policy Holder 49",
+  "document_quality": "clean_pdf",
+  "language": "english",
+  "trip_type": "Schengen",
+  "duration": "30+ days",
+  "coverage": "Medical Only",
+  "exclusions": [
+    "Pre-existing medical conditions",
+    "High-risk activities (unless covered)",
+    "Alcohol/drug related incidents",
+    "War and terrorism",
+    "Pregnancy complications (advanced stage)",
+    "Mental disorders"
+  ],
+  "premium": "₹9,282 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "Tata AIG Customer Care: 1800-510-603"
+}

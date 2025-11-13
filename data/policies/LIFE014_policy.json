@@ -1,0 +1,22 @@
+{
+  "policy_id": "LIFE014",
+  "provider": "LIC",
+  "policy_type": "life",
+  "issue_date": "2024-02-23",
+  "policy_holder": "Policy Holder 14",
+  "document_quality": "handwritten_annotation",
+  "language": "english",
+  "sum_assured": "25 Lakhs",
+  "policy_term": "10 years",
+  "premium_payment": "Monthly",
+  "exclusions": [
+    "Suicide (first 1 year)",
+    "Death due to intoxication",
+    "Participation in hazardous activities",
+    "War and civil commotion",
+    "Pre-existing conditions not disclosed"
+  ],
+  "premium": "₹26,654 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "LIC Customer Care: 1800-172-626"
+}

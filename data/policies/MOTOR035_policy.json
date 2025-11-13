@@ -1,0 +1,23 @@
+{
+  "policy_id": "MOTOR035",
+  "provider": "HDFC ERGO",
+  "policy_type": "motor",
+  "issue_date": "2024-11-08",
+  "policy_holder": "Policy Holder 35",
+  "document_quality": "scanned_300dpi",
+  "language": "multilingual",
+  "coverage_type": "Third Party",
+  "vehicle_age": "10+ years",
+  "idv": "5-10 Lakhs",
+  "exclusions": [
+    "Drunk driving",
+    "Driving without license",
+    "Wear and tear",
+    "Mechanical/electrical breakdown",
+    "War and nuclear risks",
+    "Consequential losses"
+  ],
+  "premium": "₹20,367 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "HDFC ERGO Customer Care: 1800-378-443"
+}

@@ -1,0 +1,23 @@
+{
+  "policy_id": "MOTOR025",
+  "provider": "Bajaj Allianz",
+  "policy_type": "motor",
+  "issue_date": "2024-01-10",
+  "policy_holder": "Policy Holder 25",
+  "document_quality": "scanned_300dpi",
+  "language": "english",
+  "coverage_type": "Comprehensive",
+  "vehicle_age": "0-5 years",
+  "idv": "3-5 Lakhs",
+  "exclusions": [
+    "Drunk driving",
+    "Driving without license",
+    "Wear and tear",
+    "Mechanical/electrical breakdown",
+    "War and nuclear risks",
+    "Consequential losses"
+  ],
+  "premium": "₹48,708 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "Bajaj Allianz Customer Care: 1800-205-462"
+}

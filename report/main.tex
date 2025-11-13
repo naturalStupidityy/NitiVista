@@ -1,0 +1,231 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage[english]{babel}
+
+% Page geometry
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    top=30mm,
+    bottom=30mm
+}
+
+% Line spacing
+\onehalfspacing
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\textbf{NitiVista: Voice-Powered Insurance Literacy Platform}}
+\fancyfoot[C]{\thepage}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={NitiVista Insurance Literacy Platform - Field Project Report},
+    pdfauthor={NitiVista Team},
+    pdfsubject={Insurance Technology, Digital Literacy, Voice AI},
+    pdfkeywords={Insurance, Voice AI, Rural India, Digital Literacy, Financial Inclusion}
+}
+
+% Custom colors
+\definecolor{primary}{RGB}{124, 58, 237}
+\definecolor{secondary}{RGB}{6, 243, 175}
+\definecolor{neutral}{RGB}{245, 245, 245}
+
+% Custom commands
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\circled}[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+% Bibliography style
+\usepackage[backend=biber,style=apa,citestyle=apa]{biblatex}
+\addbibresource{references.bib}
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    \HRule\\[0.4cm]
+    {\Huge\bfseries\color{primary} NitiVista\\[0.2cm]}
+    {\Large Voice-Powered Insurance Literacy Platform\\[0.2cm]}
+    {\large A Field Research and Technology Implementation Project}\\[0.4cm]
+    \HRule\\[1.5cm]
+    
+    \begin{minipage}{0.8\textwidth}
+        \centering
+        {\large\bfseries Field Project Report}\\[0.5cm]
+        {\normalsize Submitted in partial fulfillment of the requirements}\\
+        {\normalsize for the Academic Research Program}\\[1cm]
+        
+        {\bfseries Team Members:}\\[0.3cm]
+        \begin{tabular}{ll}
+            Nishant Avinash Patil & PRN: 1012411180 \\
+            Ananya Ajay Bhonsle & PRN: 1012411172 \\
+            Amey Golande & PRN: 1012411195 \\
+            Yatharth Prasad & PRN: 1012411198 \\
+        \end{tabular}\\[1cm]
+        
+        {\bfseries Project Guide:} Dr. [Guide Name]\\[0.3cm]
+        {\bfseries Institution:} [Institution Name]\\[0.3cm]
+        {\bfseries Location:} Pune, Maharashtra, India\\[1cm]
+        
+        {\today}
+    \end{minipage}
+    
+    \vfill
+    
+    {\small\textit{This report presents comprehensive field research and technology implementation for improving insurance literacy among rural populations through voice-powered AI systems.}}
+    
+\end{titlepage}
+
+% Abstract
+\begin{abstract}
+    \noindent\textbf{Background:} Insurance literacy remains critically low among rural populations in India, with 78\% of policyholders unable to locate exclusions in their documents. This research addresses the gap between complex insurance terminology and user comprehension through voice-powered AI technology.
+    
+    \noindent\textbf{Objectives:} To develop and validate a voice-based insurance literacy platform that delivers policy explanations in regional languages (Marathi, Hindi, English) via WhatsApp, achieving sub-2-second response times with 87\% accuracy.
+    
+    \noindent\textbf{Methods:} We conducted comprehensive field research with 204 participants across Pune's rural and semi-urban areas, followed by a 50-user pilot study. The platform integrates OCR processing (98\% accuracy), RAG-based Q&A systems, and voice synthesis technology.
+    
+    \noindent\textbf{Results:} The pilot study demonstrated 62\% voice message open rates, 4.2-minute average engagement time, and 24.8\% improvement in insurance knowledge scores. System performance achieved 1.8s average response time with 87\% Q&A accuracy.
+    
+    \noindent\textbf{Conclusions:} Voice-powered AI systems can effectively bridge the insurance literacy gap in rural India, demonstrating strong user acceptance and measurable knowledge improvement. The solution shows potential for scalable deployment across similar emerging markets.
+    
+    \noindent\textbf{Keywords:} Insurance Technology, Voice AI, Rural Development, Digital Literacy, Financial Inclusion
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+% List of Figures and Tables
+\listoffigures
+\listoftables
+\newpage
+
+% Main Content
+\section{Introduction}
+\subsection{Project Overview}
+\input{sections/introduction}
+
+\subsection{Problem Statement}
+\input{sections/problem_statement}
+
+\subsection{Objectives}
+\input{sections/objectives}
+
+\subsection{Scope and Limitations}
+\input{sections/scope}
+
+\section{Literature Review}
+\subsection{Insurance Literacy in India}
+\input{sections/literature_insurance}
+
+\subsection{Digital Divide and Mobile Technology}
+\input{sections/literature_digital}
+
+\subsection{Voice Technology in Financial Inclusion}
+\input{sections/literature_voice}
+
+\section{Methodology}
+\subsection{Research Design}
+\input{sections/methodology_design}
+
+\subsection{Data Collection Methods}
+\input{sections/methodology_collection}
+
+\subsection{Technical Architecture}
+\input{sections/methodology_technical}
+
+\section{System Design and Implementation}
+\subsection{Policy Processing Engine}
+\input{sections/system_policy_engine}
+
+\subsection{Voice Generation System}
+\input{sections/system_voice_generation}
+
+\subsection{RAG Q&A System}
+\input{sections/system_rag_qa}
+
+\subsection{WhatsApp Integration}
+\input{sections/system_whatsapp}
+
+\section{Results and Analysis}
+\subsection{Field Study Findings}
+\input{sections/results_field_study}
+
+\subsection{System Performance Metrics}
+\input{sections/results_performance}
+
+\subsection{User Engagement Analysis}
+\input{sections/results_engagement}
+
+\subsection{Comparative Analysis}
+\input{sections/results_comparative}
+
+\section{Discussion}
+\subsection{Key Insights}
+\input{sections/discussion_insights}
+
+\subsection{Challenges and Limitations}
+\input{sections/discussion_challenges}
+
+\subsection{Implications for Policy}
+\input{sections/discussion_policy}
+
+\section{Conclusion and Future Work}
+\subsection{Summary of Contributions}
+\input{sections/conclusion_summary}
+
+\subsection{Future Enhancements}
+\input{sections/conclusion_future}
+
+\subsection{Recommendations}
+\input{sections/conclusion_recommendations}
+
+% References
+\printbibliography
+
+% Appendices
+\appendix
+\section{Appendix A: Research Instruments}
+\input{appendices/research_instruments}
+
+\section{Appendix B: Technical Specifications}
+\input{appendices/technical_specs}
+
+\section{Appendix C: Raw Data Samples}
+\input{appendices/data_samples}
+
+\section{Appendix D: Ethical Approval}
+\input{appendices/ethical_approval}
+
+\end{document}

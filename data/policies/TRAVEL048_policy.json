@@ -1,0 +1,23 @@
+{
+  "policy_id": "TRAVEL048",
+  "provider": "Bajaj Allianz",
+  "policy_type": "travel",
+  "issue_date": "2024-06-06",
+  "policy_holder": "Policy Holder 48",
+  "document_quality": "scanned_300dpi",
+  "language": "english",
+  "trip_type": "International",
+  "duration": "16-30 days",
+  "coverage": "Medical Only",
+  "exclusions": [
+    "Pre-existing medical conditions",
+    "High-risk activities (unless covered)",
+    "Alcohol/drug related incidents",
+    "War and terrorism",
+    "Pregnancy complications (advanced stage)",
+    "Mental disorders"
+  ],
+  "premium": "₹8,573 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "Bajaj Allianz Customer Care: 1800-666-399"
+}

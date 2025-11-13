@@ -1,0 +1,23 @@
+{
+  "policy_id": "TRAVEL043",
+  "provider": "HDFC ERGO",
+  "policy_type": "travel",
+  "issue_date": "2024-10-26",
+  "policy_holder": "Policy Holder 43",
+  "document_quality": "handwritten_annotation",
+  "language": "multilingual",
+  "trip_type": "Asia",
+  "duration": "30+ days",
+  "coverage": "Premium",
+  "exclusions": [
+    "Pre-existing medical conditions",
+    "High-risk activities (unless covered)",
+    "Alcohol/drug related incidents",
+    "War and terrorism",
+    "Pregnancy complications (advanced stage)",
+    "Mental disorders"
+  ],
+  "premium": "₹43,828 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "HDFC ERGO Customer Care: 1800-374-430"
+}

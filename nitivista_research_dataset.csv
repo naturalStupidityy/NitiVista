@@ -1,0 +1,205 @@
+respondent_id,age_group,income_bracket,primary_language,insurance_knowledge_score,digital_trust_score,smartphone_usage_hrs,has_insurance,can_locate_exclusions,preferred_communication,previous_claim_experience,interview_transcript_snippet
+R001,26-35,upper_middle,english,3,1,2.6,True,False,voice_message,no,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R002,18-25,middle,hindi,1,5,2.6,True,True,in_person,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। बीमा की बुनियादी बातें भी समझ नहीं आतीं।"
+R003,18-25,low,marathi,1,5,2.6,True,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R004,36-45,low,hindi,3,1,0.0,True,False,text_message,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। exclusions कहाँ हैं पता नहीं चलता।"
+R005,26-35,lower_middle,marathi,3,1,2.6,True,True,text_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत.
+R006,46-55,lower_middle,hindi,1,1,0.0,True,False,in_person,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R007,56+,lower_middle,marathi,1,1,0.0,True,False,in_person,yes,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R008,46-55,middle,english,1,1,2.6,False,False,in_person,yes,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R009,36-45,lower_middle,english,1,3,2.6,False,False,text_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R010,36-45,lower_middle,english,1,1,0.0,True,False,voice_message,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R011,36-45,lower_middle,marathi,5,3,2.6,False,False,in_person,yes,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R012,46-55,low,marathi,1,5,2.6,True,True,in_person,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear.
+R013,36-45,lower_middle,marathi,1,1,4.5,True,False,text_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R014,26-35,low,english,3,1,4.5,True,False,voice_message,yes,I don't understand the exclusions in my policy. The language is too technical. Can't find where exclusions are mentioned.
+R015,36-45,lower_middle,english,1,3,2.6,True,False,in_person,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R016,36-45,lower_middle,english,1,5,2.6,True,True,voice_message,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear.
+R017,46-55,middle,marathi,1,5,2.6,True,False,text_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R018,56+,middle,marathi,3,5,2.6,True,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R019,46-55,low,marathi,3,5,4.5,True,False,text_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. exclusions कहाँ हैं पता नहीं चलता।
+R020,36-45,lower_middle,marathi,5,5,2.6,True,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R021,18-25,lower_middle,marathi,1,3,2.6,True,False,voice_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R022,26-35,upper_middle,marathi,5,3,4.5,True,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R023,36-45,lower_middle,english,1,5,2.6,True,False,text_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R024,26-35,upper_middle,hindi,5,1,2.6,False,False,in_person,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। कुछ तो समझ में आता है लेकिन पूरी जानकारी नहीं। exclusions कहाँ हैं पता नहीं चलता।"
+R025,46-55,upper_middle,marathi,1,3,2.6,True,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R026,36-45,low,marathi,3,5,4.5,False,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R027,18-25,lower_middle,marathi,5,1,2.6,True,False,in_person,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R028,26-35,lower_middle,marathi,1,5,2.6,True,False,text_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R029,36-45,middle,marathi,1,3,2.6,True,False,text_message,yes,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R030,26-35,middle,marathi,1,1,2.6,False,True,text_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear.
+R031,18-25,low,hindi,3,3,2.6,True,False,in_person,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। exclusions कहाँ हैं पता नहीं चलता।"
+R032,46-55,low,marathi,1,1,4.5,False,False,in_person,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R033,26-35,lower_middle,english,1,5,4.5,True,True,video_call,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear.
+R034,36-45,lower_middle,hindi,5,5,2.6,False,False,voice_message,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. कुछ तो समझ में आता है लेकिन पूरी जानकारी नहीं। exclusions कहाँ हैं पता नहीं चलता।
+R035,36-45,upper_middle,marathi,5,5,2.6,True,True,in_person,yes,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. I understand some parts but not completely.
+R036,26-35,lower_middle,marathi,3,1,2.6,True,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R037,46-55,low,marathi,3,5,4.5,True,False,text_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. exclusions कहाँ हैं पता नहीं चलता।
+R038,36-45,low,english,3,1,2.6,True,False,voice_message,no,Would prefer voice messages in my regional language for better understanding. Can't find where exclusions are mentioned.
+R039,26-35,low,hindi,1,1,4.5,False,False,voice_message,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।"
+R040,36-45,lower_middle,marathi,5,5,2.6,False,False,video_call,yes,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R041,46-55,low,marathi,1,5,2.6,True,True,text_message,yes,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear.
+R042,46-55,low,english,1,3,4.5,False,False,text_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R043,46-55,lower_middle,marathi,3,1,2.6,True,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R044,46-55,middle,english,1,1,2.6,True,False,voice_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R045,56+,low,hindi,3,5,2.6,True,False,voice_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। exclusions कहाँ हैं पता नहीं चलता।
+R046,26-35,high,english,1,3,4.5,False,True,voice_message,yes,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear.
+R047,26-35,low,english,1,3,2.6,False,False,text_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R048,26-35,lower_middle,marathi,1,1,4.5,True,False,text_message,yes,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R049,46-55,low,marathi,1,5,4.5,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R050,36-45,low,marathi,1,1,2.6,False,False,text_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R051,46-55,upper_middle,hindi,1,1,2.6,False,False,in_person,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R052,26-35,low,english,3,5,2.6,False,False,voice_message,no,I don't understand the exclusions in my policy. The language is too technical. Can't find where exclusions are mentioned.
+R053,36-45,lower_middle,marathi,3,3,4.5,False,False,video_call,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. exclusions कहाँ हैं पता नहीं चलता।
+R054,26-35,lower_middle,hindi,1,3,4.5,True,False,text_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R055,56+,lower_middle,marathi,1,5,2.6,True,False,in_person,yes,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R056,36-45,lower_middle,marathi,3,1,2.6,True,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R057,26-35,low,marathi,1,1,2.6,True,False,in_person,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R058,26-35,low,marathi,1,3,2.6,True,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R059,36-45,high,english,5,1,2.6,True,False,in_person,no,Would prefer voice messages in my regional language for better understanding. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R060,46-55,middle,english,3,1,2.6,True,False,in_person,no,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R061,36-45,middle,marathi,3,1,2.6,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. exclusions कहाँ हैं पता नहीं चलता।
+R062,46-55,lower_middle,english,3,1,2.6,False,False,in_person,no,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R063,36-45,low,marathi,1,1,2.6,True,False,in_person,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R064,18-25,low,english,5,5,2.6,False,True,video_call,no,Documents are lengthy and confusing. Need simpler explanations. I understand some parts but not completely.
+R065,36-45,upper_middle,english,3,1,4.5,True,False,voice_message,no,I don't understand the exclusions in my policy. The language is too technical. Can't find where exclusions are mentioned.
+R066,36-45,middle,english,1,3,4.5,True,False,voice_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R067,18-25,high,marathi,3,1,2.6,False,False,voice_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. exclusions कहाँ हैं पता नहीं चलता।
+R068,18-25,middle,english,1,5,4.5,True,False,video_call,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R069,18-25,middle,marathi,1,1,4.5,False,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R070,36-45,lower_middle,english,5,3,2.6,True,False,voice_message,no,Documents are lengthy and confusing. Need simpler explanations. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R071,36-45,middle,english,1,5,2.6,True,True,text_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear.
+R072,46-55,middle,marathi,1,1,2.6,True,False,text_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R073,18-25,lower_middle,marathi,1,3,2.6,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R074,36-45,middle,english,1,1,2.6,False,False,voice_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R075,36-45,middle,marathi,1,1,2.6,True,True,text_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear.
+R076,46-55,low,english,3,1,2.6,False,False,voice_message,yes,I don't understand the exclusions in my policy. The language is too technical. Can't find where exclusions are mentioned.
+R077,26-35,low,english,1,1,2.6,True,False,text_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R078,18-25,low,marathi,3,5,2.6,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. exclusions कहाँ हैं पता नहीं चलता।
+R079,18-25,low,english,1,5,2.6,True,False,in_person,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R080,56+,lower_middle,english,5,3,2.6,True,False,voice_message,no,Would prefer voice messages in my regional language for better understanding. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R081,26-35,lower_middle,english,1,5,2.6,True,False,voice_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R082,26-35,lower_middle,marathi,1,5,4.5,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R083,56+,middle,hindi,1,3,2.6,True,False,voice_message,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R084,26-35,lower_middle,marathi,1,1,2.6,False,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R085,26-35,low,marathi,3,3,4.5,True,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R086,46-55,low,marathi,1,3,2.6,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R087,56+,middle,marathi,5,3,4.5,False,False,in_person,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R088,36-45,low,marathi,5,5,2.6,True,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R089,46-55,lower_middle,marathi,1,3,2.6,True,True,in_person,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear.
+R090,36-45,lower_middle,english,1,5,2.6,True,False,in_person,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R091,26-35,low,english,1,5,2.6,False,False,voice_message,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R092,36-45,upper_middle,english,1,1,2.6,True,True,voice_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear.
+R093,36-45,lower_middle,marathi,1,1,2.6,True,False,in_person,yes,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R094,26-35,lower_middle,marathi,1,5,2.6,False,False,in_person,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R095,46-55,middle,english,3,5,2.6,True,False,video_call,no,Would prefer voice messages in my regional language for better understanding. Can't find where exclusions are mentioned.
+R096,18-25,lower_middle,hindi,3,3,2.6,True,False,in_person,yes,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। exclusions कहाँ हैं पता नहीं चलता।"
+R097,56+,lower_middle,hindi,5,1,4.5,True,False,in_person,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। कुछ तो समझ में आता है लेकिन पूरी जानकारी नहीं। exclusions कहाँ हैं पता नहीं चलता।
+R098,46-55,lower_middle,english,1,3,4.5,True,False,text_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R099,36-45,low,marathi,5,1,4.5,True,False,text_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R100,46-55,lower_middle,english,3,5,4.5,False,False,voice_message,no,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R101,18-25,lower_middle,marathi,5,3,2.6,True,False,in_person,yes,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R102,36-45,low,hindi,3,1,2.6,False,False,voice_message,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. exclusions कहाँ हैं पता नहीं चलता।
+R103,46-55,low,marathi,5,1,4.5,True,True,voice_message,yes,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. I understand some parts but not completely.
+R104,46-55,low,marathi,5,5,4.5,False,True,voice_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. I understand some parts but not completely.
+R105,56+,middle,english,3,5,0.0,False,False,voice_message,no,Would prefer voice messages in my regional language for better understanding. Can't find where exclusions are mentioned.
+R106,18-25,middle,hindi,5,5,2.6,True,True,voice_message,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। कुछ तो समझ में आता है लेकिन पूरी जानकारी नहीं।"
+R107,46-55,lower_middle,marathi,1,3,2.6,False,False,voice_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R108,36-45,lower_middle,english,5,3,2.6,False,False,in_person,no,I don't understand the exclusions in my policy. The language is too technical. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R109,46-55,middle,english,3,5,2.6,False,False,in_person,no,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R110,46-55,low,hindi,1,3,2.6,True,True,in_person,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. बीमा की बुनियादी बातें भी समझ नहीं आतीं।
+R111,36-45,low,english,3,5,2.6,False,False,video_call,no,Would prefer voice messages in my regional language for better understanding. Can't find where exclusions are mentioned.
+R112,56+,low,hindi,3,1,2.6,False,True,voice_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए।
+R113,18-25,middle,hindi,3,1,2.6,True,False,in_person,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। exclusions कहाँ हैं पता नहीं चलता।"
+R114,36-45,middle,english,1,1,4.5,True,False,in_person,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R115,26-35,middle,english,1,1,4.5,False,True,text_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear.
+R116,36-45,lower_middle,marathi,5,1,4.5,True,True,in_person,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. I understand some parts but not completely.
+R117,46-55,lower_middle,hindi,1,5,4.5,False,False,text_message,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R118,56+,upper_middle,marathi,1,1,2.6,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R119,36-45,low,english,1,5,2.6,True,False,voice_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R120,26-35,middle,hindi,3,1,2.6,True,False,video_call,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। exclusions कहाँ हैं पता नहीं चलता।
+R121,36-45,middle,english,1,1,2.6,True,False,in_person,yes,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R122,26-35,upper_middle,marathi,3,5,0.0,False,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R123,56+,low,english,3,5,2.6,False,False,text_message,yes,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R124,46-55,lower_middle,english,3,3,2.6,True,False,in_person,no,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R125,26-35,lower_middle,english,5,1,0.0,True,True,text_message,no,I don't understand the exclusions in my policy. The language is too technical. I understand some parts but not completely.
+R126,36-45,low,marathi,1,1,2.6,False,True,video_call,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear.
+R127,26-35,lower_middle,hindi,1,5,2.6,True,False,voice_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R128,46-55,lower_middle,hindi,1,1,2.6,True,False,in_person,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R129,26-35,low,hindi,1,5,2.6,True,False,voice_message,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R130,36-45,low,english,1,1,4.5,True,False,voice_message,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R131,36-45,low,marathi,1,3,2.6,False,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R132,26-35,low,marathi,3,1,2.6,False,False,voice_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. exclusions कहाँ हैं पता नहीं चलता।
+R133,26-35,low,marathi,1,3,4.5,True,True,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear.
+R134,18-25,lower_middle,english,1,3,2.6,True,False,video_call,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R135,36-45,low,english,1,1,2.6,False,False,in_person,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R136,36-45,lower_middle,hindi,1,3,4.5,False,False,voice_message,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।"
+R137,36-45,low,hindi,3,3,2.6,False,False,voice_message,yes,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। exclusions कहाँ हैं पता नहीं चलता।
+R138,56+,low,hindi,1,5,4.5,True,False,text_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R139,56+,lower_middle,hindi,5,1,4.5,True,False,voice_message,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. कुछ तो समझ में आता है लेकिन पूरी जानकारी नहीं। exclusions कहाँ हैं पता नहीं चलता।
+R140,26-35,lower_middle,english,1,1,2.6,True,False,in_person,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R141,36-45,middle,english,3,5,4.5,False,False,in_person,no,I don't understand the exclusions in my policy. The language is too technical. Can't find where exclusions are mentioned.
+R142,26-35,lower_middle,marathi,3,5,2.6,True,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R143,46-55,low,hindi,1,5,2.6,True,False,in_person,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।"
+R144,56+,lower_middle,english,1,3,2.6,False,False,voice_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R145,46-55,low,marathi,3,1,4.5,True,True,text_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो.
+R146,36-45,upper_middle,english,5,5,2.6,True,False,voice_message,no,I don't understand the exclusions in my policy. The language is too technical. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R147,26-35,middle,marathi,5,1,2.6,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R148,26-35,middle,english,3,1,2.6,True,True,voice_message,no,I don't understand the exclusions in my policy. The language is too technical.
+R149,36-45,lower_middle,hindi,1,3,2.6,True,False,text_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R150,18-25,middle,english,1,1,2.6,False,True,in_person,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear.
+R151,36-45,lower_middle,english,3,1,2.6,True,False,text_message,no,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R152,26-35,lower_middle,hindi,3,3,2.6,True,True,voice_message,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है.
+R153,36-45,middle,marathi,1,1,4.5,True,False,video_call,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R154,26-35,lower_middle,marathi,5,5,2.6,False,False,voice_message,yes,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R155,46-55,lower_middle,english,1,1,2.6,True,False,voice_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R156,36-45,low,marathi,1,3,2.6,False,False,video_call,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R157,36-45,lower_middle,english,3,3,2.6,False,True,in_person,no,Would prefer voice messages in my regional language for better understanding.
+R158,26-35,low,english,1,5,2.6,False,True,text_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear.
+R159,18-25,middle,english,1,5,4.5,False,True,voice_message,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear.
+R160,56+,lower_middle,hindi,1,1,2.6,True,True,voice_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं।
+R161,36-45,low,marathi,3,1,2.6,True,False,voice_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. exclusions कहाँ हैं पता नहीं चलता।
+R162,26-35,low,marathi,1,1,2.6,True,False,video_call,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R163,26-35,low,english,5,3,4.5,True,False,voice_message,no,Documents are lengthy and confusing. Need simpler explanations. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R164,46-55,middle,english,1,1,2.6,True,False,text_message,no,Would prefer voice messages in my regional language for better understanding. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R165,36-45,low,english,3,1,2.6,True,False,in_person,no,I don't understand the exclusions in my policy. The language is too technical. Can't find where exclusions are mentioned.
+R166,46-55,low,english,1,1,2.6,True,False,voice_message,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R167,56+,low,marathi,3,5,4.5,True,False,video_call,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. exclusions कहाँ हैं पता नहीं चलता।
+R168,46-55,lower_middle,marathi,1,1,4.5,True,False,in_person,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R169,36-45,low,marathi,3,1,2.6,True,False,text_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. exclusions कहाँ हैं पता नहीं चलता।
+R170,56+,upper_middle,hindi,3,1,2.6,True,False,in_person,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। exclusions कहाँ हैं पता नहीं चलता।"
+R171,18-25,upper_middle,marathi,3,3,2.6,True,True,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो.
+R172,56+,lower_middle,hindi,1,1,2.6,True,False,text_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R173,18-25,low,hindi,1,1,2.6,True,False,video_call,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R174,36-45,lower_middle,marathi,5,3,2.6,False,False,voice_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R175,36-45,middle,english,3,3,2.6,True,False,video_call,yes,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R176,18-25,middle,marathi,5,3,2.6,True,False,text_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R177,26-35,lower_middle,english,5,3,4.5,True,False,in_person,no,I don't understand the exclusions in my policy. The language is too technical. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R178,46-55,low,marathi,5,3,2.6,False,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R179,36-45,lower_middle,hindi,5,5,0.0,False,False,text_message,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। कुछ तो समझ में आता है लेकिन पूरी जानकारी नहीं। exclusions कहाँ हैं पता नहीं चलता।"
+R180,26-35,middle,hindi,1,1,2.6,False,False,voice_message,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।"
+R181,18-25,lower_middle,marathi,3,1,2.6,True,False,in_person,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. exclusions कहाँ हैं पता नहीं चलता।
+R182,36-45,low,english,3,3,0.0,True,False,in_person,no,Documents are lengthy and confusing. Need simpler explanations. Can't find where exclusions are mentioned.
+R183,56+,low,english,3,1,2.6,False,False,voice_message,yes,Would prefer voice messages in my regional language for better understanding. Can't find where exclusions are mentioned.
+R184,46-55,middle,marathi,1,3,2.6,True,False,video_call,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R185,36-45,lower_middle,marathi,1,1,0.0,True,False,in_person,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R186,46-55,low,hindi,1,1,2.6,True,False,video_call,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। बीमा की बुनियादी बातें भी समझ नहीं आतीं। exclusions कहाँ हैं पता नहीं चलता।
+R187,18-25,middle,english,1,3,4.5,True,False,in_person,no,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R188,56+,low,marathi,1,1,2.6,False,False,in_person,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R189,46-55,low,marathi,5,1,2.6,True,False,in_person,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. I understand some parts but not completely. exclusions कहाँ हैं पता नहीं चलता।
+R190,46-55,low,english,5,3,4.5,True,False,in_person,no,Documents are lengthy and confusing. Need simpler explanations. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R191,56+,low,english,1,1,2.6,False,False,in_person,yes,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R192,26-35,low,hindi,3,3,2.6,False,False,in_person,no,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. exclusions कहाँ हैं पता नहीं चलता।
+R193,36-45,low,hindi,1,1,2.6,True,True,text_message,no,"मोबाइल से जानकारी मिले तो अच्छा रहेगा, लेकिन सरल भाषा में। बीमा की बुनियादी बातें भी समझ नहीं आतीं।"
+R194,36-45,low,english,3,1,0.0,False,True,in_person,no,Would prefer voice messages in my regional language for better understanding.
+R195,46-55,middle,marathi,1,3,2.6,True,False,voice_message,no,मला माझ्या विम्याच्या धोरणात नेमकं काय आहे हे समजत नाही. डॉक्टरकडे गेल्यावर नेहमी खर्च वाढतो. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R196,18-25,low,english,5,3,2.6,True,False,text_message,no,Would prefer voice messages in my regional language for better understanding. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R197,26-35,low,marathi,1,1,2.6,True,False,voice_message,no,विम्याचे कागदपत्री काम खूप आहे. मला तपशीलवार माहिती हवी आहे पण सोप्या भाषेत. Even basic insurance concepts are unclear. exclusions कहाँ हैं पता नहीं चलता।
+R198,36-45,low,english,3,1,4.5,False,False,video_call,no,I don't understand the exclusions in my policy. The language is too technical. Can't find where exclusions are mentioned.
+R199,18-25,low,english,5,1,4.5,False,False,in_person,no,Would prefer voice messages in my regional language for better understanding. I understand some parts but not completely. Can't find where exclusions are mentioned.
+R200,56+,lower_middle,hindi,3,3,2.6,False,False,in_person,yes,मुझे अपनी बीमा पॉलिसी की शर्तें समझ नहीं आतीं. क्लेम कब मिलेगा ये स्पष्ट नहीं है. exclusions कहाँ हैं पता नहीं चलता।
+R201,18-25,low,english,1,1,4.5,True,False,text_message,yes,I don't understand the exclusions in my policy. The language is too technical. Even basic insurance concepts are unclear. Can't find where exclusions are mentioned.
+R202,36-45,middle,english,1,3,4.5,True,True,text_message,no,Documents are lengthy and confusing. Need simpler explanations. Even basic insurance concepts are unclear.
+R203,46-55,lower_middle,hindi,3,1,2.6,True,False,text_message,no,दस्तावेज़ बहुत लंबे हैं और कठिन भाषा में हैं. आसान समझ चाहिए। exclusions कहाँ हैं पता नहीं चलता।
+R204,56+,lower_middle,marathi,3,1,2.6,True,True,text_message,no,माझ्या मुलांना इंग्रजी येते पण मला मराठीत समजावंसं वाटतं.

@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NitiVista - Voice-Powered Insurance Literacy Platform</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Core Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.22.9/babel.min.js"></script>
+    
+    <!-- Visualization Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.3/plotly.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
+    
+    <!-- Animation Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-dark': '#0A0A0D',
+                        'primary-light': '#FFFFFF',
+                        'accent-purple': '#7C3AED',
+                        'accent-mint': '#06F3AF',
+                        'neutral-100': '#F5F5F5',
+                        'neutral-200': '#E5E5E5',
+                        'neutral-800': '#262626',
+                        'neutral-900': '#171717'
+                    },
+                    fontFamily: {
+                        'display': ['Playfair Display', 'serif'],
+                        'body': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0A0A0D 0%, #1a1a2e 100%);
+            min-height: 100vh;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #7C3AED 0%, #06F3AF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(124, 58, 237, 0.2);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        
+        .reveal-on-scroll.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-primary-dark text-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-effect">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-accent-purple rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">NV</span>
+                    </div>
+                    <span class="font-display font-bold text-xl">NitiVista</span>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="hover:text-accent-mint transition-colors">Home</a>
+                    <a href="#research" class="hover:text-accent-mint transition-colors">Research</a>
+                    <a href="#platform" class="hover:text-accent-mint transition-colors">Platform</a>
+                    <a href="#team" class="hover:text-accent-mint transition-colors">Team</a>
+                    <a href="#impact" class="hover:text-accent-mint transition-colors">Impact</a>
+                </div>
+                
+                <button class="bg-accent-purple hover:bg-purple-700 px-6 py-2 rounded-lg transition-colors">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <h1 class="font-display text-5xl lg:text-7xl font-bold leading-tight">
+                            <span class="gradient-text">Voice-Powered</span><br>
+                            Insurance Literacy
+                        </h1>
+                        <p class="text-xl text-gray-300 leading-relaxed max-w-2xl">
+                            Breaking down insurance barriers for rural India through AI-powered voice explanations 
+                            in Marathi, Hindi, and English. Making complex policies simple, accessible, and trustworthy.
+                        </p>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-accent-purple hover:bg-purple-700 px-8 py-4 rounded-lg font-semibold transition-colors hover-lift">
+                            Try Voice Demo
+                        </button>
+                        <button class="border border-accent-mint text-accent-mint hover:bg-accent-mint hover:text-primary-dark px-8 py-4 rounded-lg font-semibold transition-colors">
+                            View Research
+                        </button>
+                    </div>
+                    
+                    <!-- Stats -->
+                    <div class="grid grid-cols-3 gap-8 pt-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold gradient-text">78%</div>
+                            <div class="text-sm text-gray-400">Cannot Locate Exclusions</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold gradient-text">62%</div>
+                            <div class="text-sm text-gray-400">Voice Message Open Rate</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold gradient-text">4.3/5</div>
+                            <div class="text-sm text-gray-400">User Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="glass-effect rounded-2xl p-8 hover-lift">
+                        <div class="space-y-6">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-accent-purple rounded-full flex items-center justify-center">
+                                    <span class="text-white text-xl">🎙️</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold">Voice Query</h3>
+                                    <p class="text-sm text-gray-400">"What does my policy cover?"</p>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-neutral-800 rounded-lg p-4 space-y-2">
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-2 h-2 bg-accent-mint rounded-full pulse-animation"></div>
+                                    <span class="text-sm">Processing voice query...</span>
+                                </div>
+                                <div class="text-xs text-gray-400">• Speech-to-text conversion</div>
+                                <div class="text-xs text-gray-400">• Policy document analysis</div>
+                                <div class="text-xs text-gray-400">• Context-aware response generation</div>
+                            </div>
+                            
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-accent-mint rounded-full flex items-center justify-center">
+                                    <span class="text-primary-dark text-xl">📱</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold">Voice Response</h3>
+                                    <p class="text-sm text-gray-400">"Your policy covers hospitalization..."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Dashboard -->
+    <section id="research" class="py-16 reveal-on-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-display text-4xl font-bold mb-4">Research Insights</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Comprehensive field study with 204 participants across Pune's rural and semi-urban areas
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                <!-- Demographics Chart -->
+                <div class="glass-effect rounded-2xl p-6">
+                    <h3 class="font-semibold text-lg mb-4">Participant Demographics</h3>
+                    <div id="demographics-chart" style="height: 300px;"></div>
+                </div>
+                
+                <!-- Language Preferences -->
+                <div class="glass-effect rounded-2xl p-6">
+                    <h3 class="font-semibold text-lg mb-4">Language Preferences</h3>
+                    <div id="language-chart" style="height: 300px;"></div>
+                </div>
+            </div>
+            
+            <!-- Key Findings -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass-effect rounded-xl p-6 hover-lift">
+                    <div class="text-accent-purple text-3xl mb-3">🔍</div>
+                    <h3 class="font-semibold text-lg mb-2">Policy Understanding Gap</h3>
+                    <p class="text-gray-300 text-sm">
+                        78% of participants cannot locate exclusions in their policies, 
+                        indicating a critical need for simplified explanations.
+                    </p>
+                </div>
+                
+                <div class="glass-effect rounded-xl p-6 hover-lift">
+                    <div class="text-accent-mint text-3xl mb-3">📱</div>
+                    <h3 class="font-semibold text-lg mb-2">Mobile-First Preference</h3>
+                    <p class="text-gray-300 text-sm">
+                        95.9% have smartphone access, with 70.1% using devices for 2.6 hours daily, 
+                        making mobile delivery optimal.
+                    </p>
+                </div>
+                
+                <div class="glass-effect rounded-xl p-6 hover-lift">
+                    <div class="text-accent-purple text-3xl mb-3">🗣️</div>
+                    <h3 class="font-semibold text-lg mb-2">Voice Communication Demand</h3>
+                    <p class="text-gray-300 text-sm">
+                        29.9% prefer voice messages over text, with higher adoption 
+                        among lower literacy populations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Demo -->
+    <section id="platform" class="py-16 reveal-on-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-display text-4xl font-bold mb-4">Platform Architecture</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    End-to-end system from document processing to voice delivery
+                </p>
+            </div>
+            
+            <div class="space-y-8">
+                <!-- System Architecture Flow -->
+                <div class="glass-effect rounded-2xl p-8">
+                    <h3 class="font-semibold text-xl mb-6 text-center">System Flow</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-accent-purple rounded-full flex items-center justify-center mx-auto mb-3">
+                                <span class="text-2xl">📄</span>
+                            </div>
+                            <h4 class="font-semibold text-sm">Policy Upload</h4>
+                            <p class="text-xs text-gray-400">PDF/Image</p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="text-accent-mint text-2xl">→</div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-accent-mint rounded-full flex items-center justify-center mx-auto mb-3">
+                                <span class="text-2xl">🔍</span>
+                            </div>
+                            <h4 class="font-semibold text-sm">OCR Processing</h4>
+                            <p class="text-xs text-gray-400">98% Accuracy</p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="text-accent-mint text-2xl">→</div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-accent-purple rounded-full flex items-center justify-center mx-auto mb-3">
+                                <span class="text-2xl">🎙️</span>
+                            </div>
+                            <h4 class="font-semibold text-sm">Voice Generation</h4>
+                            <p class="text-xs text-gray-400">99% Success</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Performance Metrics -->
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <div class="glass-effect rounded-xl p-6 text-center">
+                        <div class="text-3xl font-bold gradient-text mb-2">1.8s</div>
+                        <div class="text-sm text-gray-400">Average Response Time</div>
+                    </div>
+                    <div class="glass-effect rounded-xl p-6 text-center">
+                        <div class="text-3xl font-bold gradient-text mb-2">87%</div>
+                        <div class="text-sm text-gray-400">Q&A Accuracy</div>
+                    </div>
+                    <div class="glass-effect rounded-xl p-6 text-center">
+                        <div class="text-3xl font-bold gradient-text mb-2">24.8%</div>
+                        <div class="text-sm text-gray-400">Knowledge Improvement</div>
+                    </div>
+                    <div class="glass-effect rounded-xl p-6 text-center">
+                        <div class="text-3xl font-bold gradient-text mb-2">95%</div>
+                        <div class="text-sm text-gray-400">System Uptime</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-16 reveal-on-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-display text-4xl font-bold mb-4">Team</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Meet the team behind NitiVista's innovation
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Team Lead -->
+                <div class="glass-effect rounded-xl p-6 text-center hover-lift">
+                    <div class="w-20 h-20 bg-accent-purple rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">👨‍💻</span>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-1">Nishant Patil</h3>
+                    <p class="text-accent-mint text-sm mb-2">Team Lead & ML Engineer</p>
+                    <p class="text-gray-400 text-xs">RAG Architecture, Survey Planning</p>
+                    <div class="mt-3 text-xs text-gray-500">PRN: 1012411180</div>
+                </div>
+                
+                <!-- Research Lead -->
+                <div class="glass-effect rounded-xl p-6 text-center hover-lift">
+                    <div class="w-20 h-20 bg-accent-mint rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl text-primary-dark">👩‍🔬</span>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-1">Ananya Bhonsle</h3>
+                    <p class="text-accent-purple text-sm mb-2">Research Lead</p>
+                    <p class="text-gray-400 text-xs">Literature Review, Data Analysis</p>
+                    <div class="mt-3 text-xs text-gray-500">PRN: 1012411172</div>
+                </div>
+                
+                <!-- Frontend Lead -->
+                <div class="glass-effect rounded-xl p-6 text-center hover-lift">
+                    <div class="w-20 h-20 bg-accent-purple rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">🎨</span>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-1">Amey Golande</h3>
+                    <p class="text-accent-mint text-sm mb-2">Frontend Developer</p>
+                    <p class="text-gray-400 text-xs">UI/UX Design, Web Development</p>
+                    <div class="mt-3 text-xs text-gray-500">PRN: 1012411195</div>
+                </div>
+                
+                <!-- Data Specialist -->
+                <div class="glass-effect rounded-xl p-6 text-center hover-lift">
+                    <div class="w-20 h-20 bg-accent-mint rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl text-primary-dark">📊</span>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-1">Yatharth Prasad</h3>
+                    <p class="text-accent-purple text-sm mb-2">Data Specialist</p>
+                    <p class="text-gray-400 text-xs">Data Processing, OCR Validation</p>
+                    <div class="mt-3 text-xs text-gray-500">PRN: 1012411198</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Metrics -->
+    <section id="impact" class="py-16 reveal-on-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-display text-4xl font-bold mb-4">Impact & Outcomes</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Measuring the real-world impact of NitiVista on insurance literacy
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Knowledge Improvement Chart -->
+                <div class="glass-effect rounded-2xl p-6">
+                    <h3 class="font-semibold text-xl mb-4">Knowledge Assessment Results</h3>
+                    <div id="knowledge-chart" style="height: 350px;"></div>
+                </div>
+                
+                <!-- User Engagement -->
+                <div class="space-y-6">
+                    <div class="glass-effect rounded-xl p-6">
+                        <h3 class="font-semibold text-lg mb-4">Engagement Metrics</h3>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-300">Voice Message Open Rate</span>
+                                <span class="font-bold text-accent-mint">62%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-300">Average Engagement Time</span>
+                                <span class="font-bold text-accent-mint">4.2 min</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-300">Follow-up Questions</span>
+                                <span class="font-bold text-accent-mint">74%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-300">Satisfaction Score</span>
+                                <span class="font-bold text-accent-mint">4.3/5</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6">
+                        <h3 class="font-semibold text-lg mb-4">Economic Impact</h3>
+                        <div class="space-y-3">
+                            <div class="text-sm text-gray-300">
+                                <span class="font-semibold text-accent-purple">Cost Reduction:</span> 
+                                85% lower than human agents
+                            </div>
+                            <div class="text-sm text-gray-300">
+                                <span class="font-semibold text-accent-purple">Scalability:</span> 
+                                Support 1000+ concurrent users
+                            </div>
+                            <div class="text-sm text-gray-300">
+                                <span class="font-semibold text-accent-purple">Accessibility:</span> 
+                                24/7 availability across regions
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-2 mb-4">
+                    <div class="w-8 h-8 bg-accent-purple rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">NV</span>
+                    </div>
+                    <span class="font-display font-bold text-xl">NitiVista</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-4">
+                    Voice-Powered Insurance Literacy Platform | Bridging the gap between complex policies and rural communities
+                </p>
+                <p class="text-gray-500 text-xs">
+                    © 2024 NitiVista. Built for rural India's insurance literacy revolution.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/babel">
+        // Initialize charts when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeCharts();
+            initializeScrollReveal();
+        });
+
+        function initializeCharts() {
+            // Demographics Chart
+            const demographicsData = [{
+                values: [15.7, 28.9, 26.0, 19.6, 9.8],
+                labels: ['18-25', '26-35', '36-45', '46-55', '56+'],
+                type: 'pie',
+                marker: {
+                    colors: ['#7C3AED', '#06F3AF', '#7C3AED', '#06F3AF', '#7C3AED']
+                },
+                textinfo: 'label+percent',
+                textposition: 'outside',
+                hovertemplate: '<b>%{label}</b><br>%{percent}<br><extra></extra>'
+            }];
+
+            const demographicsLayout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#FFFFFF' },
+                margin: { t: 0, b: 0, l: 0, r: 0 },
+                showlegend: false
+            };
+
+            Plotly.newPlot('demographics-chart', demographicsData, demographicsLayout, {responsive: true, displayModeBar: false});
+
+            // Language Chart
+            const languageData = [{
+                x: ['Marathi', 'English', 'Hindi'],
+                y: [42.2, 41.7, 16.2],
+                type: 'bar',
+                marker: {
+                    color: ['#7C3AED', '#06F3AF', '#7C3AED']
+                },
+                hovertemplate: '<b>%{x}</b><br>%{y}%<extra></extra>'
+            }];
+
+            const languageLayout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#FFFFFF' },
+                xaxis: { color: '#FFFFFF', gridcolor: 'rgba(255,255,255,0.1)' },
+                yaxis: { color: '#FFFFFF', gridcolor: 'rgba(255,255,255,0.1)', title: 'Percentage (%)' },
+                margin: { t: 20, b: 40, l: 40, r: 20 }
+            };
+
+            Plotly.newPlot('language-chart', languageData, languageLayout, {responsive: true, displayModeBar: false});
+
+            // Knowledge Improvement Chart
+            const knowledgeData = [{
+                x: ['Pre-Test', 'Post-Test'],
+                y: [1.7, 3.2],
+                type: 'bar',
+                marker: {
+                    color: ['#7C3AED', '#06F3AF']
+                },
+                width: [0.4, 0.4],
+                hovertemplate: '<b>%{x}</b><br>Score: %{y}/5<extra></extra>'
+            }];
+
+            const knowledgeLayout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#FFFFFF' },
+                xaxis: { color: '#FFFFFF', gridcolor: 'rgba(255,255,255,0.1)' },
+                yaxis: { color: '#FFFFFF', gridcolor: 'rgba(255,255,255,0.1)', title: 'Score (out of 5)', range: [0, 5] },
+                margin: { t: 20, b: 40, l: 40, r: 20 },
+                annotations: [{
+                    x: 'Post-Test',
+                    y: 3.2,
+                    text: '+24.8%',
+                    showarrow: true,
+                    arrowhead: 2,
+                    arrowcolor: '#06F3AF',
+                    font: { color: '#06F3AF', size: 14 }
+                }]
+            };
+
+            Plotly.newPlot('knowledge-chart', knowledgeData, knowledgeLayout, {responsive: true, displayModeBar: false});
+        }
+
+        function initializeScrollReveal() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+                observer.observe(el);
+            });
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

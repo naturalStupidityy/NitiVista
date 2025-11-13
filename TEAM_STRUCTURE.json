@@ -1,0 +1,35 @@
+{
+  "team_lead": {
+    "name": "Nishant Avinash Patil",
+    "prn": "1012411180",
+    "role": "Team Leader & ML Lead",
+    "skills": ["RAG Model Development", "Survey Planning", "Machine Learning", "Python", "TensorFlow", "PyTorch"],
+    "assigned_to": ["policy_processing_engine", "rag_qa_system", "survey_planning", "overall_architecture"]
+  },
+  "secondary_lead": {
+    "name": "Ananya Ajay Bhonsle",
+    "prn": "1012411172", 
+    "role": "Secondary Leader & Research Lead",
+    "skills": ["Research Methodology", "Data Analysis", "Academic Writing", "Literature Review", "Statistical Analysis"],
+    "assigned_to": ["literature_research", "data_analysis", "report_writing", "pilot_study"]
+  },
+  "frontend_lead": {
+    "name": "Amey Golande",
+    "prn": "1012411195",
+    "role": "Frontend Development Lead", 
+    "skills": ["React", "Next.js", "TypeScript", "Tailwind CSS", "UI/UX Design", "Web Development"],
+    "assigned_to": ["website_frontend", "user_interface", "component_development", "web_deployment"]
+  },
+  "data_specialist": {
+    "name": "Yatharth Prasad",
+    "prn": "1012411198",
+    "role": "Data Processing Specialist",
+    "skills": ["Data Cleaning", "Data Entry", "OCR Processing", "PDF Processing", "Data Validation"],
+    "assigned_to": ["data_preprocessing", "ocr_validation", "dataset_generation", "quality_assurance"]
+  },
+  "backend": ["Nishant Avinash Patil"],
+  "frontend": ["Amey Golande"],
+  "ml": ["Nishant Avinash Patil"],
+  "research": ["Ananya Ajay Bhonsle"],
+  "qa": ["Yatharth Prasad"]
+}

@@ -1,0 +1,23 @@
+{
+  "policy_id": "TRAVEL045",
+  "provider": "Religare",
+  "policy_type": "travel",
+  "issue_date": "2024-04-03",
+  "policy_holder": "Policy Holder 45",
+  "document_quality": "clean_pdf",
+  "language": "multilingual",
+  "trip_type": "Asia",
+  "duration": "8-15 days",
+  "coverage": "Premium",
+  "exclusions": [
+    "Pre-existing medical conditions",
+    "High-risk activities (unless covered)",
+    "Alcohol/drug related incidents",
+    "War and terrorism",
+    "Pregnancy complications (advanced stage)",
+    "Mental disorders"
+  ],
+  "premium": "₹36,201 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "Religare Customer Care: 1800-761-828"
+}

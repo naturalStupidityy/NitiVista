@@ -1,0 +1,6 @@
+question_id,category,question,difficulty
+Q1,Basic Insurance Concepts,What is the main purpose of insurance?,easy
+Q2,Policy Understanding,What are policy exclusions?,medium
+Q3,Claims Process,When should you file a claim?,easy
+Q4,Premium Concepts,What happens if premium is not paid?,medium
+Q5,Health Insurance,What is a waiting period?,hard

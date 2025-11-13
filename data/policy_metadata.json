@@ -1,0 +1,2561 @@
+[
+  {
+    "policy_id": "HEALTH001",
+    "policy_type": "health",
+    "provider": "Star Health",
+    "document_quality": "scanned_300dpi",
+    "language": "hindi",
+    "num_exclusions": 6,
+    "complexity_score": 0.8353077406229072,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 2,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH002",
+    "policy_type": "health",
+    "provider": "ICICI Lombard",
+    "document_quality": "handwritten_annotation",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.5517118925769953,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 7,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH003",
+    "policy_type": "health",
+    "provider": "Apollo Munich",
+    "document_quality": "clean_pdf",
+    "language": "marathi",
+    "num_exclusions": 6,
+    "complexity_score": 0.808496619808476,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 2,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH004",
+    "policy_type": "health",
+    "provider": "Max Bupa",
+    "document_quality": "scanned_300dpi",
+    "language": "marathi",
+    "num_exclusions": 6,
+    "complexity_score": 0.43673896539092816,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 5,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH005",
+    "policy_type": "health",
+    "provider": "Max Bupa",
+    "document_quality": "scanned_300dpi",
+    "language": "hindi",
+    "num_exclusions": 6,
+    "complexity_score": 0.7210921880751309,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 3,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH006",
+    "policy_type": "health",
+    "provider": "Max Bupa",
+    "document_quality": "handwritten_annotation",
+    "language": "hindi",
+    "num_exclusions": 6,
+    "complexity_score": 0.7830274804627286,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 6,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH007",
+    "policy_type": "health",
+    "provider": "ICICI Lombard",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.6368208804978905,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 6,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH008",
+    "policy_type": "health",
+    "provider": "ICICI Lombard",
+    "document_quality": "scanned_300dpi",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.7752476186177786,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 10,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH009",
+    "policy_type": "health",
+    "provider": "Max Bupa",
+    "document_quality": "handwritten_annotation",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.7611592395944676,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 8,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH010",
+    "policy_type": "health",
+    "provider": "Star Health",
+    "document_quality": "scanned_300dpi",
+    "language": "hindi",
+    "num_exclusions": 6,
+    "complexity_score": 0.6833696969196031,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 9,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH011",
+    "policy_type": "health",
+    "provider": "Religare",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.7840648828782772,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 2,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "HEALTH012",
+    "policy_type": "health",
+    "provider": "Max Bupa",
+    "document_quality": "handwritten_annotation",
+    "language": "hindi",
+    "num_exclusions": 6,
+    "complexity_score": 0.4590339773640355,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing diseases (first 2-4 years)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Cosmetic treatments",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Dental treatments (unless accidental)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Pregnancy and childbirth (first 1-2 years)",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Alternative therapies (some limits)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 5,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE013",
+    "policy_type": "life",
+    "provider": "SBI Life",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 5,
+    "complexity_score": 0.5028513372884732,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 4,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE014",
+    "policy_type": "life",
+    "provider": "LIC",
+    "document_quality": "handwritten_annotation",
+    "language": "english",
+    "num_exclusions": 5,
+    "complexity_score": 0.4428027806213971,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 10,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE015",
+    "policy_type": "life",
+    "provider": "Max Life",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 5,
+    "complexity_score": 0.5541471738119526,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 7,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE016",
+    "policy_type": "life",
+    "provider": "ICICI Prudential",
+    "document_quality": "clean_pdf",
+    "language": "hindi",
+    "num_exclusions": 5,
+    "complexity_score": 0.5775768410405804,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 1,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE017",
+    "policy_type": "life",
+    "provider": "Max Life",
+    "document_quality": "clean_pdf",
+    "language": "hindi",
+    "num_exclusions": 5,
+    "complexity_score": 0.8414657193063293,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 5,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE018",
+    "policy_type": "life",
+    "provider": "SBI Life",
+    "document_quality": "handwritten_annotation",
+    "language": "multilingual",
+    "num_exclusions": 5,
+    "complexity_score": 0.7414423072734262,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 10,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE019",
+    "policy_type": "life",
+    "provider": "SBI Life",
+    "document_quality": "handwritten_annotation",
+    "language": "hindi",
+    "num_exclusions": 5,
+    "complexity_score": 0.7051275321624542,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 4,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE020",
+    "policy_type": "life",
+    "provider": "Max Life",
+    "document_quality": "handwritten_annotation",
+    "language": "english",
+    "num_exclusions": 5,
+    "complexity_score": 0.48851031767734565,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 8,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE021",
+    "policy_type": "life",
+    "provider": "ICICI Prudential",
+    "document_quality": "scanned_300dpi",
+    "language": "english",
+    "num_exclusions": 5,
+    "complexity_score": 0.8275621454907258,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 9,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE022",
+    "policy_type": "life",
+    "provider": "ICICI Prudential",
+    "document_quality": "handwritten_annotation",
+    "language": "english",
+    "num_exclusions": 5,
+    "complexity_score": 0.8338276242034255,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 10,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE023",
+    "policy_type": "life",
+    "provider": "HDFC Life",
+    "document_quality": "clean_pdf",
+    "language": "marathi",
+    "num_exclusions": 5,
+    "complexity_score": 0.5541454635382359,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 3,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE024",
+    "policy_type": "life",
+    "provider": "ICICI Prudential",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 5,
+    "complexity_score": 0.6273541735233135,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 7,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR025",
+    "policy_type": "motor",
+    "provider": "Bajaj Allianz",
+    "document_quality": "scanned_300dpi",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.7680697451228657,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 3,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR026",
+    "policy_type": "motor",
+    "provider": "HDFC ERGO",
+    "document_quality": "handwritten_annotation",
+    "language": "marathi",
+    "num_exclusions": 6,
+    "complexity_score": 0.7207669128839476,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 8,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR027",
+    "policy_type": "motor",
+    "provider": "Tata AIG",
+    "document_quality": "clean_pdf",
+    "language": "hindi",
+    "num_exclusions": 6,
+    "complexity_score": 0.8186117652181719,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 6,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR028",
+    "policy_type": "motor",
+    "provider": "ICICI Lombard",
+    "document_quality": "clean_pdf",
+    "language": "marathi",
+    "num_exclusions": 6,
+    "complexity_score": 0.4882063885169947,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 4,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR029",
+    "policy_type": "motor",
+    "provider": "Tata AIG",
+    "document_quality": "scanned_300dpi",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.8693246915827886,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 9,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR030",
+    "policy_type": "motor",
+    "provider": "Tata AIG",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.86421820243811,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 9,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR031",
+    "policy_type": "motor",
+    "provider": "ICICI Lombard",
+    "document_quality": "clean_pdf",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.70537633991406,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 9,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR032",
+    "policy_type": "motor",
+    "provider": "Reliance",
+    "document_quality": "clean_pdf",
+    "language": "marathi",
+    "num_exclusions": 6,
+    "complexity_score": 0.890361613669111,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 4,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR033",
+    "policy_type": "motor",
+    "provider": "HDFC ERGO",
+    "document_quality": "clean_pdf",
+    "language": "hindi",
+    "num_exclusions": 6,
+    "complexity_score": 0.4313046820873917,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 2,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR034",
+    "policy_type": "motor",
+    "provider": "HDFC ERGO",
+    "document_quality": "scanned_300dpi",
+    "language": "marathi",
+    "num_exclusions": 6,
+    "complexity_score": 0.746193265295751,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 9,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR035",
+    "policy_type": "motor",
+    "provider": "HDFC ERGO",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.4918257410512574,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 7,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "MOTOR036",
+    "policy_type": "motor",
+    "provider": "Bajaj Allianz",
+    "document_quality": "clean_pdf",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.7997347016042926,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Drunk driving",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Driving without license",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Wear and tear",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "Mechanical/electrical breakdown",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "War and nuclear risks",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Consequential losses",
+        "page": 8,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL037",
+    "policy_type": "travel",
+    "provider": "ICICI Lombard",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.31741489196802913,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 10,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL038",
+    "policy_type": "travel",
+    "provider": "Religare",
+    "document_quality": "handwritten_annotation",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.4560937883515829,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 7,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL039",
+    "policy_type": "travel",
+    "provider": "HDFC ERGO",
+    "document_quality": "clean_pdf",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.768739829766537,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 10,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL040",
+    "policy_type": "travel",
+    "provider": "Bajaj Allianz",
+    "document_quality": "scanned_300dpi",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.40067348602068137,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 10,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL041",
+    "policy_type": "travel",
+    "provider": "ICICI Lombard",
+    "document_quality": "handwritten_annotation",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.6763454373606267,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 1,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL042",
+    "policy_type": "travel",
+    "provider": "HDFC ERGO",
+    "document_quality": "handwritten_annotation",
+    "language": "marathi",
+    "num_exclusions": 6,
+    "complexity_score": 0.36332332238639914,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 9,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL043",
+    "policy_type": "travel",
+    "provider": "HDFC ERGO",
+    "document_quality": "handwritten_annotation",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.8110278960115991,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 10,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL044",
+    "policy_type": "travel",
+    "provider": "Religare",
+    "document_quality": "scanned_300dpi",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.778699414096858,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 6,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 1,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL045",
+    "policy_type": "travel",
+    "provider": "Religare",
+    "document_quality": "clean_pdf",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.5944928010471517,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 4,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL046",
+    "policy_type": "travel",
+    "provider": "HDFC ERGO",
+    "document_quality": "scanned_300dpi",
+    "language": "multilingual",
+    "num_exclusions": 6,
+    "complexity_score": 0.7217129653114613,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 4,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL047",
+    "policy_type": "travel",
+    "provider": "HDFC ERGO",
+    "document_quality": "handwritten_annotation",
+    "language": "hindi",
+    "num_exclusions": 6,
+    "complexity_score": 0.6537521435764746,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 9,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 4,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 5,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL048",
+    "policy_type": "travel",
+    "provider": "Bajaj Allianz",
+    "document_quality": "scanned_300dpi",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.7184504357461168,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 8,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 2,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 5,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "TRAVEL049",
+    "policy_type": "travel",
+    "provider": "Tata AIG",
+    "document_quality": "clean_pdf",
+    "language": "english",
+    "num_exclusions": 6,
+    "complexity_score": 0.3444493021533839,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Pre-existing medical conditions",
+        "page": 1,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "High-risk activities (unless covered)",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Alcohol/drug related incidents",
+        "page": 3,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and terrorism",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pregnancy complications (advanced stage)",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC6",
+        "section": "Exclusions",
+        "content": "Mental disorders",
+        "page": 2,
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "policy_id": "LIFE050",
+    "policy_type": "life",
+    "provider": "LIC",
+    "document_quality": "scanned_300dpi",
+    "language": "hindi",
+    "num_exclusions": 5,
+    "complexity_score": 0.6531150832326618,
+    "ground_truth_chunks": [
+      {
+        "chunk_id": "EXC1",
+        "section": "Exclusions",
+        "content": "Suicide (first 1 year)",
+        "page": 7,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC2",
+        "section": "Exclusions",
+        "content": "Death due to intoxication",
+        "page": 5,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC3",
+        "section": "Exclusions",
+        "content": "Participation in hazardous activities",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC4",
+        "section": "Exclusions",
+        "content": "War and civil commotion",
+        "page": 10,
+        "confidence": 0.95
+      },
+      {
+        "chunk_id": "EXC5",
+        "section": "Exclusions",
+        "content": "Pre-existing conditions not disclosed",
+        "page": 1,
+        "confidence": 0.95
+      }
+    ]
+  }
+]

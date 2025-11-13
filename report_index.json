@@ -1,0 +1,59 @@
+{
+  "report_structure": {
+    "1": {
+      "title": "Introduction",
+      "1.1": {"title": "Project Overview", "word_count": 300},
+      "1.2": {"title": "Need and Importance", "word_count": 250},
+      "1.3": {"title": "Objectives", "word_count": 200},
+      "1.4": {"title": "Scope and Limitations", "word_count": 200}
+    },
+    "2": {
+      "title": "Literature Review and Background",
+      "2.1": {"title": "Insurance Literacy in India", "word_count": 400},
+      "2.2": {"title": "Digital Divide and Mobile Technology", "word_count": 350},
+      "2.3": {"title": "Voice Technology in Financial Inclusion", "word_count": 350}
+    },
+    "3": {
+      "title": "Methodology",
+      "3.1": {"title": "Research Design", "word_count": 300},
+      "3.2": {"title": "Data Collection Methods", "word_count": 300},
+      "3.3": {"title": "Technical Architecture", "word_count": 400}
+    },
+    "4": {
+      "title": "System Design and Implementation",
+      "4.1": {"title": "Policy Processing Engine", "word_count": 350},
+      "4.2": {"title": "Voice Generation System", "word_count": 350},
+      "4.3": {"title": "RAG Q&A System", "word_count": 350},
+      "4.4": {"title": "WhatsApp Integration", "word_count": 300}
+    },
+    "5": {
+      "title": "Results and Analysis",
+      "5.1": {"title": "Field Study Findings", "word_count": 400},
+      "5.2": {"title": "System Performance Metrics", "word_count": 350},
+      "5.3": {"title": "User Engagement Analysis", "word_count": 350},
+      "5.4": {"title": "Comparative Analysis", "word_count": 300}
+    },
+    "6": {
+      "title": "Discussion",
+      "6.1": {"title": "Key Insights", "word_count": 300},
+      "6.2": {"title": "Challenges and Limitations", "word_count": 250},
+      "6.3": {"title": "Implications for Policy", "word_count": 250}
+    },
+    "7": {
+      "title": "Conclusion and Future Work",
+      "7.1": {"title": "Summary of Contributions", "word_count": 200},
+      "7.2": {"title": "Future Enhancements", "word_count": 200},
+      "7.3": {"title": "Recommendations", "word_count": 200}
+    },
+    "8": {
+      "title": "References and Appendices"
+    }
+  },
+  "total_word_count": 6000,
+  "formatting": {
+    "font": "Latin Modern",
+    "font_size": 11,
+    "line_spacing": 1.5,
+    "language": "British English"
+  }
+}

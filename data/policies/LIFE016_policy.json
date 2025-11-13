@@ -1,0 +1,22 @@
+{
+  "policy_id": "LIFE016",
+  "provider": "ICICI Prudential",
+  "policy_type": "life",
+  "issue_date": "2024-02-08",
+  "policy_holder": "Policy Holder 16",
+  "document_quality": "clean_pdf",
+  "language": "hindi",
+  "sum_assured": "2 Crores",
+  "policy_term": "Whole life",
+  "premium_payment": "Quarterly",
+  "exclusions": [
+    "Suicide (first 1 year)",
+    "Death due to intoxication",
+    "Participation in hazardous activities",
+    "War and civil commotion",
+    "Pre-existing conditions not disclosed"
+  ],
+  "premium": "₹32,648 per year",
+  "renewal_date": "2025-12-31",
+  "contact_info": "ICICI Prudential Customer Care: 1800-287-385"
+}
