@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Policy RAG Model & Survey Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.3/plotly.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --warm-beige: #F5F1EB;
+            --deep-teal: #2D5A5A;
+            --muted-gold: #B8860B;
+            --soft-grey: #6B7280;
+            --accent-blue: #4A90A4;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--warm-beige);
+            color: var(--deep-teal);
+        }
+        
+        .serif-font {
+            font-family: 'Crimson Text', serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, var(--deep-teal) 0%, var(--accent-blue) 100%);
+        }
+        
+        .card-shadow {
+            box-shadow: 0 10px 25px rgba(45, 90, 90, 0.1);
+        }
+        
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(45, 90, 90, 0.15);
+        }
+        
+        .code-block {
+            background: #1f2937;
+            color: #e5e7eb;
+            font-family: 'Monaco', 'Menlo', monospace;
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: var(--muted-gold);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--muted-gold);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--soft-grey), transparent);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white/90 backdrop-blur-sm fixed w-full top-0 z-50 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-shield-alt text-2xl" style="color: var(--deep-teal);"></i>
+                    <span class="serif-font text-xl font-semibold" style="color: var(--deep-teal);">InsureRAG</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#overview" class="nav-link text-sm font-medium">Overview</a>
+                    <a href="#rag-model" class="nav-link text-sm font-medium">RAG Model</a>
+                    <a href="#survey-design" class="nav-link text-sm font-medium">Survey Design</a>
+                    <a href="#implementation" class="nav-link text-sm font-medium">Implementation</a>
+                    <a href="#resources" class="nav-link text-sm font-medium">Resources</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient pt-20 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="serif-font text-5xl md:text-6xl font-bold text-white mb-6">
+                    Insurance Policy Analysis
+                </h1>
+                <p class="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+                    Advanced RAG model for multilingual insurance policy analysis and comprehensive survey design for fraud detection research
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#rag-model" class="bg-white text-teal-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                        <i class="fas fa-robot mr-2"></i>Explore RAG Model
+                    </a>
+                    <a href="#survey-design" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-teal-800 transition-colors">
+                        <i class="fas fa-poll mr-2"></i>View Survey Design
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="serif-font text-4xl font-bold mb-4" style="color: var(--deep-teal);">Project Overview</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Empowering consumers with AI-driven insurance policy understanding and comprehensive fraud detection research
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="serif-font text-2xl font-semibold mb-6" style="color: var(--deep-teal);">Key Features</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-language text-xl mt-1" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold mb-1">Multilingual Support</h4>
+                                <p class="text-gray-600">English, Hindi, and Marathi language processing for inclusive access</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-search text-xl mt-1" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold mb-1">Smart Document Analysis</h4>
+                                <p class="text-gray-600">Advanced RAG model for intelligent policy document comprehension</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-comments text-xl mt-1" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold mb-1">Interactive Chat</h4>
+                                <p class="text-gray-600">Natural language conversation with your insurance policy</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-shield-alt text-xl mt-1" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold mb-1">Fact Checking</h4>
+                                <p class="text-gray-600">Web-enabled verification for accurate information</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-8 card-shadow">
+                    <h3 class="serif-font text-2xl font-semibold mb-6" style="color: var(--deep-teal);">Survey Research</h3>
+                    <div class="space-y-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-2" style="color: var(--muted-gold);">15,000</div>
+                            <p class="text-gray-600">Target respondents across India</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 text-center">
+                            <div>
+                                <div class="text-2xl font-bold" style="color: var(--deep-teal);">5</div>
+                                <p class="text-sm text-gray-600">Income tiers</p>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold" style="color: var(--deep-teal);">4</div>
+                                <p class="text-sm text-gray-600">Age groups</p>
+                            </div>
+                        </div>
+                        <div class="pt-4 border-t border-gray-200">
+                            <p class="text-sm text-gray-600 text-center">
+                                Comprehensive demographic analysis of insurance fraud patterns
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RAG Model Section -->
+    <section id="rag-model" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="serif-font text-4xl font-bold mb-4" style="color: var(--deep-teal);">RAG Model Architecture</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Production-ready Retrieval-Augmented Generation system for insurance policy analysis
+                </p>
+            </div>
+
+            <!-- Architecture Diagram -->
+            <div class="mb-12">
+                <div class="bg-gray-50 rounded-xl p-8">
+                    <h3 class="serif-font text-2xl font-semibold mb-6 text-center" style="color: var(--deep-teal);">System Architecture</h3>
+                    <div class="grid md:grid-cols-4 gap-6">
+                        <div class="text-center">
+                            <div class="bg-white rounded-lg p-6 card-shadow hover-lift">
+                                <i class="fas fa-file-upload text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                                <h4 class="font-semibold mb-2">Document Ingestion</h4>
+                                <p class="text-sm text-gray-600">PDF, image, and text processing with OCR support</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-white rounded-lg p-6 card-shadow hover-lift">
+                                <i class="fas fa-brain text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                                <h4 class="font-semibold mb-2">Vector Embeddings</h4>
+                                <p class="text-sm text-gray-600">Multilingual semantic representation using IndicBERT</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-white rounded-lg p-6 card-shadow hover-lift">
+                                <i class="fas fa-search text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                                <h4 class="font-semibold mb-2">Retrieval System</h4>
+                                <p class="text-sm text-gray-600">FAISS vector store for efficient similarity search</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-white rounded-lg p-6 card-shadow hover-lift">
+                                <i class="fas fa-comments text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                                <h4 class="font-semibold mb-2">Response Generation</h4>
+                                <p class="text-sm text-gray-600">Fine-tuned LLM for insurance domain expertise</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Specifications -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h3 class="serif-font text-xl font-semibold mb-4" style="color: var(--deep-teal);">Technical Specifications</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="font-medium">Embedding Model:</span>
+                            <span class="text-gray-600">ai4bharat/indic-bert</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-medium">Language Model:</span>
+                            <span class="text-gray-600">google/mt5-base</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-medium">Vector Store:</span>
+                            <span class="text-gray-600">FAISS</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-medium">Languages:</span>
+                            <span class="text-gray-600">English, Hindi, Marathi</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-medium">Response Time:</span>
+                            <span class="text-gray-600">< 3 seconds</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h3 class="serif-font text-xl font-semibold mb-4" style="color: var(--deep-teal);">Key Capabilities</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                            <span>Policy document analysis</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                            <span>Legal text simplification</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                            <span>Multi-language support</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                            <span>Fact-checking integration</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                            <span>Interactive chat interface</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Implementation Timeline -->
+            <div class="mt-12">
+                <h3 class="serif-font text-2xl font-semibold mb-6 text-center" style="color: var(--deep-teal);">Implementation Timeline</h3>
+                <div class="bg-gray-50 rounded-xl p-8">
+                    <div class="grid md:grid-cols-4 gap-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-white font-bold text-xl" style="background-color: var(--deep-teal);">1</div>
+                            <h4 class="font-semibold mb-2">Phase 1 (Weeks 1-4)</h4>
+                            <p class="text-sm text-gray-600">Core RAG development and basic Q&A functionality</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-white font-bold text-xl" style="background-color: var(--accent-blue);">2</div>
+                            <h4 class="font-semibold mb-2">Phase 2 (Weeks 5-8)</h4>
+                            <p class="text-sm text-gray-600">Multi-language support and cultural adaptation</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-white font-bold text-xl" style="background-color: var(--muted-gold);">3</div>
+                            <h4 class="font-semibold mb-2">Phase 3 (Weeks 9-12)</h4>
+                            <p class="text-sm text-gray-600">Fact-checking system and web integration</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-white font-bold text-xl" style="background-color: var(--soft-grey);">4</div>
+                            <h4 class="font-semibold mb-2">Phase 4 (Weeks 13-16)</h4>
+                            <p class="text-sm text-gray-600">Deployment, testing, and optimization</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Survey Design Section -->
+    <section id="survey-design" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="serif-font text-4xl font-bold mb-4" style="color: var(--deep-teal);">Insurance Scam Survey Design</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive research methodology to understand insurance fraud patterns across India's diverse demographics
+                </p>
+            </div>
+
+            <!-- Survey Objectives -->
+            <div class="mb-12">
+                <h3 class="serif-font text-2xl font-semibold mb-6 text-center" style="color: var(--deep-teal);">Research Objectives</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-xl p-6 card-shadow">
+                        <h4 class="font-semibold mb-4 flex items-center">
+                            <i class="fas fa-bullseye mr-2" style="color: var(--muted-gold);"></i>
+                            Primary Objectives
+                        </h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-xs mt-2 mr-2" style="color: var(--accent-blue);"></i>
+                                <span>Measure prevalence of insurance scams across demographics</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-xs mt-2 mr-2" style="color: var(--accent-blue);"></i>
+                                <span>Identify common fraud patterns and distribution</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-xs mt-2 mr-2" style="color: var(--accent-blue);"></i>
+                                <span>Analyze impact by income level and age group</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-xs mt-2 mr-2" style="color: var(--accent-blue);"></i>
+                                <span>Assess public awareness about insurance fraud</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 card-shadow">
+                        <h4 class="font-semibold mb-4 flex items-center">
+                            <i class="fas fa-chart-line mr-2" style="color: var(--muted-gold);"></i>
+                            Secondary Objectives
+                        </h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-xs mt-2 mr-2" style="color: var(--accent-blue);"></i>
+                                <span>Evaluate trust levels in insurance industry</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-xs mt-2 mr-2" style="color: var(--accent-blue);"></i>
+                                <span>Understand reporting behavior and barriers</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-xs mt-2 mr-2" style="color: var(--accent-blue);"></i>
+                                <span>Identify effective prevention strategies</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-xs mt-2 mr-2" style="color: var(--accent-blue);"></i>
+                                <span>Provide data-driven policy recommendations</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sample Design Visualization -->
+            <div class="mb-12">
+                <h3 class="serif-font text-2xl font-semibold mb-6 text-center" style="color: var(--deep-teal);">Sample Design</h3>
+                <div class="bg-white rounded-xl p-8 card-shadow">
+                    <div id="sampleDesignChart" style="height: 400px;"></div>
+                </div>
+            </div>
+
+            <!-- Demographic Stratification -->
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h4 class="font-semibold mb-4 flex items-center">
+                        <i class="fas fa-coins mr-2" style="color: var(--muted-gold);"></i>
+                        Income Distribution
+                    </h4>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Below Poverty Line</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">3,000 (20%)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Low Income</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">4,500 (30%)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Middle Income</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">4,500 (30%)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Upper Middle</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">2,250 (15%)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">High Income</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">750 (5%)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h4 class="font-semibold mb-4 flex items-center">
+                        <i class="fas fa-users mr-2" style="color: var(--muted-gold);"></i>
+                        Age Groups
+                    </h4>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Young Adults (18-30)</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">3,750 (25%)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Early Career (31-45)</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">5,250 (35%)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Mid-Career (46-55)</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">3,750 (25%)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Pre-retirement (56-65)</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">2,250 (15%)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h4 class="font-semibold mb-4 flex items-center">
+                        <i class="fas fa-map-marker-alt mr-2" style="color: var(--muted-gold);"></i>
+                        Geographic Coverage
+                    </h4>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Urban Areas</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">9,000 (60%)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm">Rural Areas</span>
+                            <span class="font-semibold" style="color: var(--deep-teal);">6,000 (40%)</span>
+                        </div>
+                        <div class="pt-2 border-t border-gray-200">
+                            <p class="text-xs text-gray-600">
+                                Pan-India coverage with state-wise stratification
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Survey Structure -->
+            <div class="mb-12">
+                <h3 class="serif-font text-2xl font-semibold mb-6 text-center" style="color: var(--deep-teal);">Survey Structure</h3>
+                <div class="bg-white rounded-xl p-8 card-shadow">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="font-semibold mb-4">Section Breakdown</h4>
+                            <div class="space-y-4">
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold" style="background-color: var(--deep-teal);">1</div>
+                                    <div>
+                                        <h5 class="font-medium">Demographics (10 questions)</h5>
+                                        <p class="text-sm text-gray-600">Age, gender, income, education, location</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold" style="background-color: var(--accent-blue);">2</div>
+                                    <div>
+                                        <h5 class="font-medium">Insurance Experience (15 questions)</h5>
+                                        <p class="text-sm text-gray-600">Policy types, claim history, premium spending</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold" style="background-color: var(--muted-gold);">3</div>
+                                    <div>
+                                        <h5 class="font-medium">Scam Experience (20 questions)</h5>
+                                        <p class="text-sm text-gray-600">Fraud types, financial loss, reporting behavior</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold" style="background-color: var(--soft-grey);">4</div>
+                                    <div>
+                                        <h5 class="font-medium">Awareness & Prevention (15 questions)</h5>
+                                        <p class="text-sm text-gray-600">Knowledge levels, prevention strategies, trust metrics</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-semibold mb-4">Quality Assurance</h4>
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-3">
+                                    <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                                    <span class="text-sm">Pilot testing with 500 respondents</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                                    <span class="text-sm">Comprehensive enumerator training</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                                    <span class="text-sm">Real-time data validation</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                                    <span class="text-sm">10% random sample back-checking</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="fas fa-check-circle" style="color: var(--muted-gold);"></i>
+                                    <span class="text-sm">Consistency checks and cross-validation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expected Outcomes -->
+            <div class="bg-gray-50 rounded-xl p-8">
+                <h3 class="serif-font text-2xl font-semibold mb-6 text-center" style="color: var(--deep-teal);">Expected Outcomes</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <i class="fas fa-chart-bar text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                        <h4 class="font-semibold mb-2">Research Publications</h4>
+                        <p class="text-sm text-gray-600">Academic papers and policy briefs for government agencies</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-gavel text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                        <h4 class="font-semibold mb-2">Policy Recommendations</h4>
+                        <p class="text-sm text-gray-600">Regulatory improvements and consumer protection measures</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-bullhorn text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                        <h4 class="font-semibold mb-2">Public Awareness</h4>
+                        <p class="text-sm text-gray-600">Educational campaigns and stakeholder workshops</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Implementation Section -->
+    <section id="implementation" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="serif-font text-4xl font-bold mb-4" style="color: var(--deep-teal);">Implementation Blueprint</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Complete technical guide with production-ready code examples
+                </p>
+            </div>
+
+            <!-- Technology Stack -->
+            <div class="mb-12">
+                <h3 class="serif-font text-2xl font-semibold mb-6 text-center" style="color: var(--deep-teal);">Technology Stack</h3>
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="bg-gray-50 rounded-xl p-6 text-center">
+                        <i class="fas fa-code text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                        <h4 class="font-semibold mb-2">Backend</h4>
+                        <p class="text-sm text-gray-600">Python, Flask, PyTorch</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-6 text-center">
+                        <i class="fas fa-brain text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                        <h4 class="font-semibold mb-2">ML/NLP</h4>
+                        <p class="text-sm text-gray-600">Transformers, FAISS, Sentence-Transformers</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-6 text-center">
+                        <i class="fas fa-database text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                        <h4 class="font-semibold mb-2">Storage</h4>
+                        <p class="text-sm text-gray-600">MongoDB, Redis, Vector Databases</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-6 text-center">
+                        <i class="fas fa-cloud text-3xl mb-4" style="color: var(--muted-gold);"></i>
+                        <h4 class="font-semibold mb-2">Deployment</h4>
+                        <p class="text-sm text-gray-600">Docker, Kubernetes, AWS/Azure</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code Example -->
+            <div class="mb-12">
+                <h3 class="serif-font text-2xl font-semibold mb-6 text-center" style="color: var(--deep-teal);">Implementation Example</h3>
+                <div class="bg-gray-900 rounded-xl p-6 overflow-x-auto">
+                    <pre class="text-sm text-gray-300"><code># Document Processing Pipeline
+class InsuranceDocumentProcessor:
+    def __init__(self):
+        self.ocr_reader = easyocr.Reader(['en', 'hi', 'mr'])
+        self.language_detector = pipeline("text-classification", 
+                                       model="papluca/xlm-roberta-base-language-detection")
+    
+    def process_document(self, file_path: str) -> Dict:
+        """Complete document processing pipeline"""
+        if file_path.endswith('.pdf'):
+            text = self._extract_from_pdf(file_path)
+        elif file_path.endswith(('.jpg', '.png', '.jpeg')):
+            text = self._extract_from_image(file_path)
+        else:
+            text = self._extract_from_text(file_path)
+        
+        language = self._detect_language(text)
+        cleaned_text = self._clean_text(text)
+        chunks = self._chunk_text(cleaned_text)
+        key_info = self._extract_key_information(cleaned_text)
+        
+        return {
+            'raw_text': text,
+            'cleaned_text': cleaned_text,
+            'language': language,
+            'chunks': chunks,
+            'key_info': key_info
+        }</code></pre>
+                </div>
+            </div>
+
+            <!-- Deployment Steps -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h4 class="font-semibold mb-4 flex items-center">
+                        <i class="fas fa-rocket mr-2" style="color: var(--muted-gold);"></i>
+                        Quick Start Guide
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-start space-x-3">
+                            <span class="font-bold" style="color: var(--deep-teal);">1.</span>
+                            <span>Clone the repository and install dependencies</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="font-bold" style="color: var(--deep-teal);">2.</span>
+                            <span>Configure environment variables and API keys</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="font-bold" style="color: var(--deep-teal);">3.</span>
+                            <span>Download required ML models</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="font-bold" style="color: var(--deep-teal);">4.</span>
+                            <span>Run the Flask API server</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="font-bold" style="color: var(--deep-teal);">5.</span>
+                            <span>Deploy using Docker for production</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h4 class="font-semibold mb-4 flex items-center">
+                        <i class="fas fa-cog mr-2" style="color: var(--muted-gold);"></i>
+                        Configuration Options
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between">
+                            <span>Embedding Model:</span>
+                            <span class="text-gray-600">ai4bharat/indic-bert</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Language Model:</span>
+                            <span class="text-gray-600">google/mt5-base</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Chunk Size:</span>
+                            <span class="text-gray-600">1000 characters</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Overlap:</span>
+                            <span class="text-gray-600">200 characters</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Max Results:</span>
+                            <span class="text-gray-600">5 chunks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="serif-font text-4xl font-bold mb-4" style="color: var(--deep-teal);">Resources & Downloads</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Access complete documentation, code repositories, and implementation guides
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- RAG Model Resources -->
+                <div class="bg-white rounded-xl p-8 card-shadow">
+                    <h3 class="serif-font text-2xl font-semibold mb-6" style="color: var(--deep-teal);">RAG Model Resources</h3>
+                    <div class="space-y-4">
+                        <a href="rag_model_blueprint.md" download class="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+                            <i class="fas fa-file-alt text-2xl mr-4" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold">Technical Blueprint</h4>
+                                <p class="text-sm text-gray-600">Complete architecture and implementation guide</p>
+                            </div>
+                        </a>
+                        <a href="implementation_blueprint.md" download class="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+                            <i class="fas fa-code text-2xl mr-4" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold">Code Implementation</h4>
+                                <p class="text-sm text-gray-600">Production-ready code examples and API</p>
+                            </div>
+                        </a>
+                        <div class="flex items-center p-4 border border-gray-200 rounded-lg">
+                            <i class="fas fa-database text-2xl mr-4" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold">Model Repository</h4>
+                                <p class="text-sm text-gray-600">Pre-trained models and datasets (Coming Soon)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Survey Resources -->
+                <div class="bg-white rounded-xl p-8 card-shadow">
+                    <h3 class="serif-font text-2xl font-semibold mb-6" style="color: var(--deep-teal);">Survey Resources</h3>
+                    <div class="space-y-4">
+                        <a href="insurance_scam_survey.md" download class="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+                            <i class="fas fa-poll-h text-2xl mr-4" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold">Survey Design Document</h4>
+                                <p class="text-sm text-gray-600">Complete methodology and questionnaire</p>
+                            </div>
+                        </a>
+                        <div class="flex items-center p-4 border border-gray-200 rounded-lg">
+                            <i class="fas fa-calculator text-2xl mr-4" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold">Statistical Analysis Plan</h4>
+                                <p class="text-sm text-gray-600">Data analysis framework (Coming Soon)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-4 border border-gray-200 rounded-lg">
+                            <i class="fas fa-chart-pie text-2xl mr-4" style="color: var(--muted-gold);"></i>
+                            <div>
+                                <h4 class="font-semibold">Survey Results Dashboard</h4>
+                                <p class="text-sm text-gray-600">Interactive data visualization (Coming Soon)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="mt-12 text-center">
+                <div class="bg-gray-50 rounded-xl p-8">
+                    <h3 class="serif-font text-2xl font-semibold mb-4" style="color: var(--deep-teal);">Get in Touch</h3>
+                    <p class="text-gray-600 mb-6">
+                        Have questions about implementation or want to collaborate on this research?
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="mailto:research@insurerag.com" class="bg-white border border-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                            <i class="fas fa-envelope mr-2"></i>Email Us
+                        </a>
+                        <a href="https://github.com/insurerag" class="bg-white border border-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                            <i class="fab fa-github mr-2"></i>GitHub Repository
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-2 mb-4">
+                    <i class="fas fa-shield-alt text-2xl" style="color: var(--muted-gold);"></i>
+                    <span class="serif-font text-xl font-semibold">InsureRAG</span>
+                </div>
+                <p class="text-gray-400 mb-4">
+                    Advancing insurance policy understanding through AI and comprehensive research
+                </p>
+                <p class="text-sm text-gray-500">
+                    © 2024 InsureRAG Project. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Sample Design Chart
+        const sampleData = [{
+            values: [3000, 4500, 4500, 2250, 750],
+            labels: ['Below Poverty Line', 'Low Income', 'Middle Income', 'Upper Middle', 'High Income'],
+            type: 'pie',
+            hole: 0.4,
+            marker: {
+                colors: ['#2D5A5A', '#4A90A4', '#B8860B', '#6B7280', '#9CA3AF']
+            },
+            textinfo: 'label+percent',
+            textposition: 'outside'
+        }];
+
+        const sampleLayout = {
+            title: {
+                text: 'Income Distribution (15,000 Respondents)',
+                font: { size: 18, color: '#2D5A5A' }
+            },
+            showlegend: true,
+            legend: {
+                orientation: 'v',
+                x: 1.1,
+                y: 0.5
+            },
+            margin: { t: 60, b: 40, l: 40, r: 150 }
+        };
+
+        Plotly.newPlot('sampleDesignChart', sampleData, sampleLayout, {responsive: true});
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('bg-white/95');
+                nav.classList.remove('bg-white/90');
+            } else {
+                nav.classList.add('bg-white/90');
+                nav.classList.remove('bg-white/95');
+            }
+        });
+    </script>
+</body>
+</html>
